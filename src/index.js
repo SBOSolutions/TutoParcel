@@ -1,3 +1,5 @@
-import hello from './src/hello'
+// here you put all the js you want.
+import Navbar from "./js/navbar.js";
 
-console.log(hello)
+const navbar = new Navbar()
+
