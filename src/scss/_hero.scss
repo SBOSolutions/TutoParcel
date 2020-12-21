@@ -1,0 +1,52 @@
+.q-hero {
+    background: #151B2B;
+    color: white;
+    padding-top: 41px;
+    height: 80vh;
+}
+
+.q-hero__logo {
+    width: 158px;
+    margin-bottom: 120px;
+}
+
+
+.q-hero__content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.q-hero__text {
+    h1{
+        font-family: hk_grotesk;
+        font-weight: 800;
+        font-size: 46px;
+        line-height: 110%;
+        margin-bottom: 24px;
+    }
+
+    .q-hero__headline{
+        font-family: hk_grotesk;
+        font-weight: 600;
+        font-size: 25px;
+        line-height: 140%;
+        margin-bottom: 24px;      
+    }
+
+    .q-hero__summary {
+        font-style: normal;
+        font-size: 16px;
+        line-height: 150%;
+        color: #8686B3;
+        margin-bottom: 48px;
+    }
+}
+
+
+.q-hero__ctas {
+    display: flex;
+    .q-btn:first-child {
+        margin-right: 24px;
+    }
+}

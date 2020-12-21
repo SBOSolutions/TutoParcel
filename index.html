@@ -1,8 +1,9 @@
 <html>
+
 <head>
     <title>Parcel Sandbox</title>
-    <meta charset="UTF-8"/>
-    <link rel="stylesheet" type="text/css" href="src/styles.scss"/>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" type="text/css" href="src/styles.scss" />
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <!-- Canonical -->
     <link rel="canonical" href="https://www.example.com">
@@ -35,15 +36,36 @@
 </head>
 
 <body>
-<include src="src/partials/nav.html"></include>
 
-<div class="container">
-    <h1>Quick Start Parcel Project SBO</h1>
-</div>
+    <section class="q-hero">
+        <div class="container">
+            <div class="q-hero__logo">
+                <img src="./assets/img/logo.svg" alt="logo">
+            </div>
+            <div class="q-hero__content">
+                <div class="q-hero__text">
+                    <h1>Qovery Engine <span>gitlab stars</span></h1>
+                    <p class="q-hero__headline">Abstraction layer to deploy microservices applications on any Cloud provider.
+                    </p>
+                    <p class="q-hero__summary">Qovery Engine is an open-source abstraction layer product that turns easy apps
+                        deployment on AWS, GCP, Azure and others Cloud providers. </p>
+                    <div class="q-hero__ctas">
+                        <a href="#" class="q-btn q-btn--dark">See on Github</a>
+                        <a href="#" class="q-btn q-btn--primary">Join us on Discord</a>
+                    </div>
+                </div>
+                <div class="q-hero__images">
+                    <img src="./assets/img/hero-illus.svg" alt="illustration">
+                </div>
+            </div>
+        </div>
+    </section>
+    
 
-<include src="src/partials/footer.html"></include>
+    <include src="src/partials/footer.html"></include>
 
-<script src="./src/index.js"></script>
+    <script src="./src/index.js"></script>
 
 </body>
+
 </html>
